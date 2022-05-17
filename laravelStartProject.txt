@@ -1,0 +1,36 @@
+1- install laravel last version
+
+2- install breeze kit 
+
+3- connect to db 
+
+4- migrate to db
+
+5- add is_admin column to users table -> boolean-->default(false)
+
+6- make seeder Admin
+
+7- Create admin seeder 
+
+8- run seeder in databaseSeeder $this->call(Admin::class)
+
+9- refresh migrate and seed
+
+10- start your idea ^_^
+
+11- build admin middleware make:middleware Admin
+
+12- check if user is logged in and admin or not in the new middleware class
+
+13- go to the kernel and add new middleware 'admin' => admin::class
+
+14- create admin controller
+
+15- create index fun in admin controller and return view admin.index
+
+16- create Route::middleware('auth','admin')->name('admin.')->prefix('admin)->group(fun(){
+	
+}) 
+
+17- create admin folder in views then create index.blade
+

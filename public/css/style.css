@@ -1,0 +1,17 @@
+.flash-message {
+    min-width: fit-content;
+}
+.danger {
+    background-color: red;
+    color: black;
+}
+.warning {
+    background-color: yellow;
+    color: black;
+}
+.success {
+    background-color: green;
+    color: black;
+}
+
+
